@@ -1,0 +1,90 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav .logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .navbar{
+    width: 50%;
+    display: flex;
+    padding-right: 10px;
+}
+
+.navbar a{
+    display: flex;
+    align-items: center;
+    color: rgb(158, 157, 157);
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.navbar a.active{
+    color: #cc0000;
+}
+
+.navbar a span{
+    padding-left: 5px;
+}
+
+nav .extra-nav{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.extra-nav form{
+    width: 60%;
+}
+
+.extra-nav form input{
+    border: 1px #ccc solid;
+    padding:5px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.extra-nav .account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding-left: 10px;
+}
+
+.account a:first-child{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    color: #fff;
+}
+
+.account a:last-child{
+    border-radius: 30px;
+    background: #cc0000;
+    padding: 3px;
+    font-size: 0.9em;
+    color: #fff;
+    width: 130px;
+    text-align: center;
+    color: rgb(235, 232, 232);
+    font-weight: 500;
+}
